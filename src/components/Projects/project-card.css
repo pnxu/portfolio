@@ -1,0 +1,12 @@
+.custom-card-body {
+  background-color: white;
+}
+
+.custom-btn {
+  border: none;
+  width: 48%;
+}
+
+.custom-btn:hover {
+  background-color: #818080;
+}
