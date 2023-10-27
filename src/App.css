@@ -1,8 +1,13 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 #root {
   margin: 0;
   text-align: center;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
