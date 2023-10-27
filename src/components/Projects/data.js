@@ -1,12 +1,10 @@
-import React from "react";
-
 export const projects = [
   {
     title: "Portfolio",
     description:
-      "My personal portfolio featuring my projects, skills, and contact information.",
+      "Portfolio showcasing my projects, skills, and contact information to help you get to know me better",
     technologies:
-      "ReactJS, React Boostrap, React Hook Form, React Toastify, Firestore, Figma",
+      "ReactJS, Boostrap, React Hook Form, React Toastify, Font Awesome, Firestore, Figma",
     imageSrc: "/public/assets/mockup_portfolio.jpg",
     repoLink: "",
     websiteLink: "",
