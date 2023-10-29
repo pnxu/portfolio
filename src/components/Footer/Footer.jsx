@@ -1,4 +1,6 @@
 import React from "react";
+import { IconBrandLinkedin } from "@tabler/icons-react";
+import { IconBrandGithub } from "@tabler/icons-react";
 
 function Footer() {
   return (
@@ -10,14 +12,24 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-linkedin fa-lg mx-2 text-light"></i>
+          <IconBrandLinkedin
+            size={36}
+            color="white"
+            stroke={2}
+            strokeLinejoin="miter"
+          />
         </a>
         <a
           href="https://github.com/pnxu"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-github fa-lg mx-2 text-light"></i>
+          <IconBrandGithub
+            size={36}
+            color="white"
+            stroke={2}
+            strokeLinejoin="miter"
+          />
         </a>
       </div>
     </footer>
