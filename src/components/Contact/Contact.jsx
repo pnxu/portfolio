@@ -1,7 +1,10 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { ToastContainer, toast } from "react-toastify";
 import { sendForm } from "../../firebase";
+import { ToastContainer, toast } from "react-toastify";
+import { IconMail } from "@tabler/icons-react";
+import { IconBrandLinkedin } from "@tabler/icons-react";
+import { IconBrandGithub } from "@tabler/icons-react";
 
 function Contact() {
   const {
@@ -33,21 +36,36 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-envelope fa-lg mx-2 text-dark"></i>
+                <IconMail
+                  size={24}
+                  color="black"
+                  stroke={2}
+                  strokeLinejoin="miter"
+                />
               </a>
               <a
                 href="https://www.linkedin.com/in/fcaavv"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-linkedin fa-lg mx-2 text-dark"></i>
+                <IconBrandLinkedin
+                  size={24}
+                  color="black"
+                  stroke={2}
+                  strokeLinejoin="miter"
+                />
               </a>
               <a
                 href="https://github.com/pnxu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-github fa-lg mx-2 text-dark"></i>
+                <IconBrandGithub
+                  size={24}
+                  color="black"
+                  stroke={2}
+                  strokeLinejoin="miter"
+                />
               </a>
             </div>
             <form onSubmit={handleSubmit(onSubmit)}>
