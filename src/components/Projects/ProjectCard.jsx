@@ -25,7 +25,7 @@ function ProjectCard({
         <div className="card-body custom-card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <p className="card-text small">{technologies}</p>
+          <p className="card-text small text-muted">{technologies}</p>
           <div className="d-flex justify-content-between">
             <button
               className="btn btn-dark custom-btn"
