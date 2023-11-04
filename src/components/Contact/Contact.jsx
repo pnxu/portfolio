@@ -27,7 +27,7 @@ function Contact() {
   return (
     <section id="contact" className="py-4">
       <div className="container text-center mt-5">
-        <h2>Contact me</h2>
+        <h2>Get in touch</h2>
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="contact-icons mb-2">
