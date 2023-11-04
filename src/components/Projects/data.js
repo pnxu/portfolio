@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Portfolio",
     description:
-      "Portfolio showcasing my projects, skills, and contact information to help you get to know me better",
+      "Portfolio showcasing my projects, skills, and contact information to help you get to know me better.",
     technologies:
       "ReactJS, Boostrap, React Hook Form, React Toastify, Font Awesome, Firestore, Figma",
     imageSrc: "/public/assets/mockup_portfolio.jpg",
