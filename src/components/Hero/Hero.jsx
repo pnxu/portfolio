@@ -9,7 +9,7 @@ function Hero() {
       <div className="container">
         <div className="text-center">
           <img
-            src="../../../public/assets/self.jpeg"
+            src="../../../assets/self.jpeg"
             alt="self"
             className="rounded-circle img-fluid custom-img border border-secondary"
           />
