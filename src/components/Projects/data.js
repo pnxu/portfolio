@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Portfolio showcasing my projects, skills, and contact information to help you get to know me better.",
     technologies:
-      "ReactJS, Boostrap, React Hook Form, React Toastify, Font Awesome, Firestore, Figma",
+      "ReactJS, Boostrap, React Hook Form, React Toastify, Firestore, Jest, Figma",
     imageSrc: "/assets/mockup_portfolio.jpg",
     repoLink: "",
     websiteLink: "",
